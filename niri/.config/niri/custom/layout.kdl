@@ -1,5 +1,5 @@
 layout {
-	gaps 4
+	gaps 2
 	center-focused-column "never"
 	preset-column-widths {
 		proportion 0.33333
@@ -8,8 +8,8 @@ layout {
 	}
 	default-column-width { proportion 0.5; }
 	focus-ring {
-		width 0.5
-		active-color "#7fc8ff"
+		width 0.1
+		active-color "#d7827e"
 		inactive-color "#505050"
 	}
 }
