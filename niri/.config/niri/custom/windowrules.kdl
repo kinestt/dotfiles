@@ -1,0 +1,25 @@
+window-rule {
+  match app-id=r#"firefox-esr"#
+  match app-id=r#"spotify"#
+  match app-id=r#"equibop"#
+  match app-id=r#"helium"#
+  open-maximized true
+}
+
+window-rule {
+  geometry-corner-radius 0
+  clip-to-geometry true
+}
+debug {
+  honor-xdg-activation-with-invalid-serial
+}
+
+window-rule {
+  match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+  open-floating true
+}
+
+window-rule {
+  match app-id=r#"controlCenter"#
+  open-floating true
+}
