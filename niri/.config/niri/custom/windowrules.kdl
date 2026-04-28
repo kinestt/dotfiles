@@ -3,6 +3,7 @@ window-rule {
   match app-id=r#"spotify"#
   match app-id=r#"equibop"#
   match app-id=r#"helium"#
+  match app-id=r#"com.github.iwalton3.jellyfin-media-player"#
   open-maximized true
 }
 
