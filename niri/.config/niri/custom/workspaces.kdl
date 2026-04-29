@@ -1,0 +1,17 @@
+spawn-at-startup "firefox-esr"
+spawn-at-startup "equibop"
+spawn-at-startup "spotify"
+
+window-rule {
+  match app-id="equibop"
+  open-on-workspace "1"
+}
+window-rule {
+  match app-id="firefox-esr"
+  open-on-workspace "2"
+}
+window-rule {
+  match app-id="spotify"
+  open-on-workspace "3"
+}
+
