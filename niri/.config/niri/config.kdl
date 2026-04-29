@@ -15,4 +15,6 @@ include "custom/layout.kdl"
 include "custom/binds.kdl"
 include "custom/input.kdl"
 
+// noctalia 
+include "noctalia.kdl"
 

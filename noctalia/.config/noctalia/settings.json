@@ -50,7 +50,7 @@
         "capsuleOpacity": 1,
         "contentPadding": 2,
         "density": "default",
-        "displayMode": "always_visible",
+        "displayMode": "auto_hide",
         "enableExclusionZoneInset": true,
         "fontScale": 1,
         "frameRadius": 12,
@@ -262,7 +262,7 @@
         }
     },
     "desktopWidgets": {
-        "enabled": true,
+        "enabled": false,
         "gridSnap": false,
         "gridSnapScale": false,
         "monitorWidgets": [
@@ -594,6 +594,10 @@
             {
                 "enabled": true,
                 "id": "gtk"
+            },
+            {
+                "enabled": true,
+                "id": "niri"
             }
         ],
         "enableUserTheming": false
