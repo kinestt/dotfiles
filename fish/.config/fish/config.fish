@@ -6,3 +6,5 @@ end
 if test "$TERM" = "xterm-kitty"
     alias ssh="kitty +kitten ssh"
 end
+
+fish_add_path /home/kin/.spicetify

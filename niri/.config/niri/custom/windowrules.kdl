@@ -2,7 +2,7 @@ window-rule {
   match app-id=r#"firefox-esr"#
   match app-id=r#"spotify"#
   match app-id=r#"equibop"#
-  match app-id=r#"helium"#
+  match app-id=r#"Helium"#
   match app-id=r#"com.github.iwalton3.jellyfin-media-player"#
   open-maximized true
 }
@@ -16,11 +16,7 @@ debug {
 }
 
 window-rule {
-  match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-  open-floating true
-}
-
-window-rule {
   match app-id=r#"controlCenter"#
   open-floating true
 }
+
