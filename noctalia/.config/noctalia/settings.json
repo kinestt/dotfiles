@@ -139,7 +139,10 @@
                     "colorizeIcons": false,
                     "drawerEnabled": true,
                     "hidePassive": false,
-                    "id": "Tray"
+                    "id": "Tray",
+                    "pinned": [
+                        "Equibop"
+                    ]
                 },
                 {
                     "id": "SystemMonitor"
@@ -192,11 +195,11 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "content",
+        "generationMethod": "tonal-spot",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Gruvbox",
+        "predefinedScheme": "Tokyo Night",
         "schedulingMode": "off",
         "syncGsettings": true,
         "useWallpaperColors": false
@@ -442,7 +445,7 @@
         "enableMarkdown": false,
         "enableMediaToast": false,
         "enabled": true,
-        "location": "top_right",
+        "location": "bottom_right",
         "lowUrgencyDuration": 3,
         "monitors": [
         ],
