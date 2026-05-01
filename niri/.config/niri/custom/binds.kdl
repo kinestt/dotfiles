@@ -1,9 +1,9 @@
 binds {
   Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
-  // Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+  // Mod+D hotkey-overlay-title="Run an Application: wofi" { spawn-sh "wofi --show drun"; }
   Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
-  Mod+B hotkey-overlay-title="Open a Browser: Firefox-ESR" { spawn "firefox-esr"; }
-
+  Mod+B hotkey-overlay-title="Open a Browser: Firefox" { spawn "firefox-esr"; }
+  Mod+P { spawn-sh "spotify"; }
   XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+ -l 1.0"; }
   XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
   XF86AudioMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
@@ -28,7 +28,6 @@ binds {
   Mod+J     { focus-window-down; }
   Mod+K     { focus-window-up; }
   Mod+L     { focus-column-right; }
-
   Mod+Ctrl+Left  { move-column-left; }
   Mod+Ctrl+Down  { move-window-down; }
   Mod+Ctrl+Up    { move-window-up; }

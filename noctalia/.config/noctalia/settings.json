@@ -199,7 +199,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Tokyo Night",
+        "predefinedScheme": "Rose Pine",
         "schedulingMode": "off",
         "syncGsettings": true,
         "useWallpaperColors": false
@@ -584,11 +584,11 @@
             },
             {
                 "enabled": true,
-                "id": "pywalfox"
+                "id": "niri"
             },
             {
                 "enabled": true,
-                "id": "qt"
+                "id": "alacritty"
             },
             {
                 "enabled": true,
@@ -600,15 +600,7 @@
             },
             {
                 "enabled": true,
-                "id": "niri"
-            },
-            {
-                "enabled": true,
-                "id": "spicetify"
-            },
-            {
-                "enabled": true,
-                "id": "alacritty"
+                "id": "qt"
             }
         ],
         "enableUserTheming": false
@@ -663,7 +655,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "browse",
+        "viewMode": "recursive",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
