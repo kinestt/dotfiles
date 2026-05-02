@@ -1,6 +1,6 @@
 binds {
   Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
-  // Mod+D hotkey-overlay-title="Run an Application: wofi" { spawn-sh "wofi --show drun"; }
+  Mod+D hotkey-overlay-title="Run an Application: Fuzzel" { spawn "fuzzel"; }
   Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
   Mod+B hotkey-overlay-title="Open a Browser: Firefox" { spawn "firefox-esr"; }
   Mod+P { spawn-sh "spotify"; }
@@ -153,7 +153,7 @@ binds {
 
   Mod+Shift+P { power-off-monitors; }
 
-  Mod+D hotkey-overlay-title="Run an Application: Noctalia Launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
+  // Mod+D hotkey-overlay-title="Run an Application: Noctalia Launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
   Mod+S { spawn-sh "qs -c noctalia-shell ipc call mediamini show"; }
   Mod+Comma { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
 }

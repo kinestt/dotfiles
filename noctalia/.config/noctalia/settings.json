@@ -51,7 +51,7 @@
         "contentPadding": 2,
         "density": "compact",
         "displayMode": "always_visible",
-        "enableExclusionZoneInset": true,
+        "enableExclusionZoneInset": false,
         "fontScale": 1,
         "frameRadius": 12,
         "frameThickness": 8,
@@ -605,6 +605,10 @@
             {
                 "enabled": true,
                 "id": "yazi"
+            },
+            {
+                "enabled": true,
+                "id": "fuzzel"
             }
         ],
         "enableUserTheming": false
@@ -625,7 +629,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/kin/Pictures/Wallpapers",
+        "directory": "/home/kin/.config/noctalia/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
@@ -645,7 +649,7 @@
         "showHiddenFiles": false,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
-        "sortOrder": "name",
+        "sortOrder": "date_desc",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": [
