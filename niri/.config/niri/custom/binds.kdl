@@ -1,5 +1,5 @@
 binds {
-  Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+  Mod+Return { spawn-sh "kitty nvim"; }
   Mod+D hotkey-overlay-title="Run an Application: Fuzzel" { spawn "fuzzel"; }
   Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
   Mod+B hotkey-overlay-title="Open a Browser: Brave Origin" { spawn-sh "brave-origin --ozone-platform=x11"; }
