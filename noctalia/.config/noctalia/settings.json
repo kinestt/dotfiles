@@ -49,13 +49,13 @@
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
         "contentPadding": 2,
-        "density": "compact",
+        "density": "default",
         "displayMode": "always_visible",
         "enableExclusionZoneInset": false,
         "fontScale": 1,
         "frameRadius": 12,
         "frameThickness": 8,
-        "hideOnOverview": false,
+        "hideOnOverview": true,
         "marginHorizontal": 4,
         "marginVertical": 4,
         "middleClickAction": "none",
@@ -195,14 +195,14 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "content",
+        "generationMethod": "tonal-spot",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Rose Pine",
+        "predefinedScheme": "Catppuccin",
         "schedulingMode": "off",
         "syncGsettings": true,
-        "useWallpaperColors": true
+        "useWallpaperColors": false
     },
     "controlCenter": {
         "cards": [
@@ -364,7 +364,7 @@
         "shadowOffsetX": 2,
         "shadowOffsetY": 3,
         "showChangelogOnStartup": true,
-        "showHibernateOnLockScreen": false,
+        "showHibernateOnLockScreen": true,
         "showScreenCorners": false,
         "showSessionButtonsOnLockScreen": true,
         "smoothScrollEnabled": true,
@@ -387,14 +387,14 @@
         "enabled": false,
         "fadeDuration": 5,
         "lockCommand": "",
-        "lockTimeout": 660,
+        "lockTimeout": 550,
         "resumeLockCommand": "",
         "resumeScreenOffCommand": "",
         "resumeSuspendCommand": "",
         "screenOffCommand": "",
-        "screenOffTimeout": 600,
+        "screenOffTimeout": 500,
         "suspendCommand": "",
-        "suspendTimeout": 1800
+        "suspendTimeout": 70
     },
     "location": {
         "analogClockInCalendar": false,
@@ -487,7 +487,7 @@
     },
     "sessionMenu": {
         "countdownDuration": 10000,
-        "enableCountdown": true,
+        "enableCountdown": false,
         "largeButtonsLayout": "single-row",
         "largeButtonsStyle": true,
         "position": "center",
@@ -609,6 +609,10 @@
             {
                 "enabled": true,
                 "id": "fuzzel"
+            },
+            {
+                "enabled": true,
+                "id": "pywalfox"
             }
         ],
         "enableUserTheming": false
@@ -619,7 +623,7 @@
         "fontDefaultScale": 1,
         "fontFixed": "JetBrains Mono",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.93,
+        "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "attached",
@@ -663,7 +667,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "recursive",
+        "viewMode": "browse",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
