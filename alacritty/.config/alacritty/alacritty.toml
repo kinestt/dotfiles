@@ -1,0 +1,23 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/noctalia.toml"
+]
+
+[font.normal]
+family = "UbuntuSansMonoNerdFont"
+
+[font.bold]
+family = "UbuntuSansMonoNerdFont"
+
+[font.italic]
+family = "UbuntuSansMonoNerdFont"
+
+[font.bold_italic]
+family = "UbuntuSansMonoNerdFont"
+
+[window]
+opacity = 0.85
+
+[env]
+TERM = "xterm-256color"
+

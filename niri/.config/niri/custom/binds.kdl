@@ -1,8 +1,8 @@
 binds {
-  Mod+Return { spawn-sh "kitty nvim"; }
+  Mod+Return { spawn "alacritty"; }
   Mod+D hotkey-overlay-title="Run an Application: Fuzzel" { spawn "fuzzel"; }
   Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
-  Mod+B hotkey-overlay-title="Open a Browser: Brave Origin" { spawn-sh "brave-origin --ozone-platform=x11"; }
+  Mod+B hotkey-overlay-title="Open a Browser: Firefox ESR" { spawn "firefox-esr"; }
   Mod+P { spawn-sh "spotify"; }
   XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+ -l 1.0"; }
   XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }

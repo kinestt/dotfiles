@@ -3,14 +3,14 @@ window-rule {
   match app-id=r#"librewolf"#
   match app-id=r#"spotify"#
   match app-id=r#"equibop"#
-  match app-id=r#"Helium"#
+  match app-id=r#"helium"#
   match app-id=r#"Brave-origin-nightly"#
   match app-id=r#"com.github.iwalton3.jellyfin-media-player"#
   open-maximized true
 }
 
 window-rule {
-  geometry-corner-radius 0
+  geometry-corner-radius 0.5
   clip-to-geometry true
 }
 debug {

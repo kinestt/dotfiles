@@ -66,7 +66,7 @@
         "mouseWheelAction": "none",
         "mouseWheelWrap": true,
         "outerCorners": false,
-        "position": "top",
+        "position": "bottom",
         "reverseScroll": false,
         "rightClickAction": "controlCenter",
         "rightClickCommand": "",
@@ -98,8 +98,8 @@
                 {
                     "clockColor": "none",
                     "customFont": "",
-                    "formatHorizontal": "hh:mm AP ddd, MMM dd",
-                    "formatVertical": "hh mm AP - dd MM",
+                    "formatHorizontal": "hh:mm AP",
+                    "formatVertical": "hh mm AP",
                     "id": "Clock",
                     "tooltipFormat": "hh:mm AP ddd, MMM dd",
                     "useCustomFont": false
@@ -120,7 +120,7 @@
                     "id": "Workspace",
                     "labelMode": "none",
                     "occupiedColor": "none",
-                    "pillSize": 0.5,
+                    "pillSize": 0.4,
                     "showApplications": false,
                     "showApplicationsHover": false,
                     "showBadge": true,
@@ -151,7 +151,13 @@
                     "id": "NotificationHistory"
                 },
                 {
-                    "id": "Battery"
+                    "deviceNativePath": "__default__",
+                    "displayMode": "graphic-clean",
+                    "hideIfIdle": false,
+                    "hideIfNotDetected": true,
+                    "id": "Battery",
+                    "showNoctaliaPerformance": false,
+                    "showPowerProfiles": false
                 },
                 {
                     "id": "Volume"
@@ -160,7 +166,7 @@
                     "id": "Brightness"
                 },
                 {
-                    "colorizeSystemIcon": "none",
+                    "colorizeSystemIcon": "primary",
                     "customIconPath": "",
                     "enableColorization": true,
                     "icon": "brand-debian",
@@ -199,7 +205,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Catppuccin",
+        "predefinedScheme": "Gruvbox",
         "schedulingMode": "off",
         "syncGsettings": true,
         "useWallpaperColors": false
